@@ -1,0 +1,41 @@
+{
+  "name": "course-knowledge-backend",
+  "version": "0.1.0",
+  "description": "知序 · 课程知识管理系统",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=runtime/course.env --import tsx --watch course/main.ts",
+    "start": "node --env-file-if-exists=runtime/course.env --import tsx course/main.ts",
+    "build": "tsc --noEmit -p tsconfig.course.json",
+    "test": "tsx --test course/*.test.ts",
+    "course:start": "npm start",
+    "course:check": "npm run build",
+    "course:test": "npm test"
+  },
+  "dependencies": {
+    "@fastify/multipart": "^8.3.1",
+    "@fastify/rate-limit": "^9.1.0",
+    "@fastify/static": "7.0.4",
+    "better-sqlite3": "^13.0.3",
+    "fastify": "^4.29.1",
+    "nodejieba": "^3.5.8",
+    "pdf-parse": "^2.4.5",
+    "zod": "4.6.5",
+    "jszip": "3.10.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.5.1",
+    "tsx": "^4.23.13",
+    "typescript": "~6.0.3"
+  },
+  "allowScripts": {
+    "nodejieba@3.5.8": true,
+    "better-sqlite3@13.0.3": true,
+    "esbuild@0.28.2": true
+  }
+}

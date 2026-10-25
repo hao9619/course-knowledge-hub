@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="600" viewBox="0 0 760 600"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#355a48"/></marker></defs><rect width="100%" height="100%" fill="white"/>
+<rect x="215" y="20" width="330" height="65" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.0" y="49" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">收到登录后的业务请求</text>
+<path d="M380,85 V120" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<path d="M380.0,120 L520,160.0 L380.0,200 L240,160.0 Z" fill="#fff8e8" stroke="#8c7950" stroke-width="1.7"/>
+<text x="380.0" y="167.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">会话有效且账号启用？</text>
+<path d="M520,160 H670 V510" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="590" y="147" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">否</text>
+<path d="M380,200 V240" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="407" y="229" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">是</text>
+<path d="M380.0,240 L520,285.0 L380.0,330 L240,285.0 Z" fill="#fff8e8" stroke="#8c7950" stroke-width="1.7"/>
+<text x="380.0" y="292.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">资料已发布或本人可读？</text>
+<path d="M520,285 H635 V510" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="580" y="272" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">否</text>
+<path d="M380,330 V370" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="407" y="357" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">是</text>
+<rect x="195" y="370" width="370" height="80" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.0" y="399" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">写操作进一步检查作者或管理员</text>
+<text x="380.0" y="426" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">只有权限匹配才执行数据库操作</text>
+<path d="M380,450 V510" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<rect x="200" y="510" width="360" height="65" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.0" y="539" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">返回结果或中文拒绝提示</text>
+<path d="M635,510 H560" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<path d="M670,535 H560" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+</svg>

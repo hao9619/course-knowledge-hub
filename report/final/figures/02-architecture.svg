@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#355a48"/></marker></defs><rect width="100%" height="100%" fill="white"/>
+<rect x="20" y="35" width="300" height="105" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="170.0" y="64" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">浏览器交互层</text>
+<text x="170.0" y="91" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">Vue 3 + Element Plus</text>
+<text x="170.0" y="116" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">页面、表单与资料阅读</text>
+<rect x="440" y="35" width="300" height="105" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="590.0" y="64" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">服务器入口</text>
+<text x="590.0" y="91" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">Fastify / HTTP 接口</text>
+<text x="590.0" y="116" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">同源静态页面与 API</text>
+<path d="M320,88 H440" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="380" y="65" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">SSH 转发</text>
+<rect x="135" y="210" width="490" height="115" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.0" y="239" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">业务处理层</text>
+<text x="380.0" y="266" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">身份与权限 → 内容管理 → 检索问答</text>
+<text x="380.0" y="291" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">输入校验、事务、版本校验、异常反馈</text>
+<path d="M590,140 V175 H380 V210" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<rect x="20" y="415" width="225" height="110" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="132.5" y="444" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">SQLite</text>
+<text x="132.5" y="471" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">十张业务表</text>
+<text x="132.5" y="496" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">FTS5 派生索引</text>
+<rect x="268" y="415" width="225" height="110" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.5" y="444" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">附件目录</text>
+<text x="380.5" y="471" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">保存原始文件</text>
+<text x="380.5" y="496" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">按资料权限读取</text>
+<rect x="515" y="415" width="225" height="110" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="627.5" y="444" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">模型适配</text>
+<text x="627.5" y="471" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">Codex CLI / Luna</text>
+<text x="627.5" y="496" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">语义选材与生成</text>
+<path d="M380,325 V365 H132 V415" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<path d="M380,325 V365 H380 V415" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<path d="M380,325 V365 H628 V415" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+</svg>

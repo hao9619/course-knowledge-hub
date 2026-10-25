@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="600" viewBox="0 0 760 600"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#355a48"/></marker></defs><rect width="100%" height="100%" fill="white"/>
+<rect x="20" y="30" width="205" height="100" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="122.5" y="59" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">users 用户</text>
+<text x="122.5" y="86" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">PK id</text>
+<text x="122.5" y="111" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">账号与角色</text>
+<rect x="285" y="30" width="225" height="100" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="397.5" y="59" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">categories 分类</text>
+<text x="397.5" y="86" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">PK id</text>
+<text x="397.5" y="111" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">FK parent_id 可空</text>
+<rect x="570" y="30" width="170" height="100" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="655.0" y="59" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">tags 标签</text>
+<text x="655.0" y="86" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">PK id</text>
+<text x="655.0" y="111" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">名称唯一</text>
+<rect x="220" y="240" width="320" height="115" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.0" y="269" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">resources 资料</text>
+<text x="380.0" y="296" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">PK id；FK author_id</text>
+<text x="380.0" y="321" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">FK category_id；状态、版本</text>
+<rect x="555" y="240" width="185" height="115" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="647.5" y="269" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">resource_tags</text>
+<text x="647.5" y="296" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">联合主键</text>
+<text x="647.5" y="321" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">两个外键</text>
+<rect x="35" y="455" width="290" height="105" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="180.0" y="484" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">attachments 附件</text>
+<text x="180.0" y="511" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">PK id；FK resource_id</text>
+<text x="180.0" y="536" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">原文件与解析文本</text>
+<rect x="430" y="455" width="290" height="105" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="575.0" y="484" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">chunks 片段</text>
+<text x="575.0" y="511" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">PK id；FK resource_id</text>
+<text x="575.0" y="536" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">ordinal + text</text>
+<path d="M123,130 V285 H220" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="146" y="207" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">1 : N</text>
+<path d="M398,130 V240" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="435" y="188" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">1 : N</text>
+<path d="M655,130 V240" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="690" y="185" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">1 : N</text>
+<path d="M540,298 H555" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="633" y="223" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">每份资料有多个标签关联</text>
+<path d="M300,355 V410 H180 V455" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="230" y="402" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">1 : N</text>
+<path d="M460,355 V410 H575 V455" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="510" y="402" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">1 : N</text>
+<path d="M510,60 H540 V160 H470 V130" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="490" y="190" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">父级 0..1</text>
+<text x="380" y="590" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">资料与标签为多对多；派生索引不另作为业务实体。</text>
+</svg>

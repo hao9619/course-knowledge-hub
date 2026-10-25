@@ -1,0 +1,18 @@
+﻿编号,任务书或模板要求,状态,实现或剩余工作,代码或证据
+1.1,存储课程技术报告、文档、论文、视频等知识资产,已实现并验证,resources.kind 分类；TXT/MD/CSV/JSON/PDF/DOCX、PNG/JPG、MP4/WebM；文件原件与解析文本分开保存,backend/course/files.ts；evidence/acceptance-results.json；evidence/backend-tests.txt
+1.2,知识内容搜索、浏览、分类和归档,已实现并验证,资料详情、下载预览、层次目录；我的内容按已归档筛选，可恢复草稿和再发布,evidence/acceptance-results.json；evidence/24-archive-recovery.png
+1.3,知识内在结构，如层次关系；本体为可用方式,已实现并验证,categories.parent_id 父子层次，递归分类检索；资料与标签多对多。本体不是强制要求,backend/course/store.ts；report/figures/01-er.mmd；evidence/backend-tests.txt
+2.1,全文搜索,已实现并验证,FTS5 trigram 索引标题、摘要、正文、标签和附件文本；短词子串；编辑删除与索引事务同步,backend/course/app.ts；evidence/backend-tests.txt；evidence/search-entry-results.json
+2.2,高级搜索,已实现并验证,分类含后代、类型、标签、作者和更新起止日期组合；个人与管理视图可筛选状态,evidence/backend-tests.txt；frontend/src/course/CourseApp.vue
+2.3,基于知识库的大模型自动问答 RAG（可选，用户决定保留）,已实现并验证,Luna low；AI目录语义选材、BM25、引用原文、多轮私有会话；无模型时明确返回检索依据,evidence/live-conversation-results.json；evidence/accounts-chat-results.json
+3.1,创建、编辑、发布和管理知识内容,已实现并验证,我的内容上传和创建；草稿、发布、归档、恢复、删除；管理员维护全站资料,evidence/acceptance-results.json；evidence/accounts-chat-results.json
+3.2,多文件格式和多媒体,已实现并验证,PDF/DOCX文本解析；PNG/JPG预览；MP4/WebM播放；原文件下载和Range响应。扫描PDF无OCR，视频无语音转写,evidence/acceptance-results.json；evidence/backend-tests.txt
+4,界面美观、友好,已实现并验证,统一界面、中文错误、加载反馈、危险操作确认、刷新页面保留、390px适配；美观程度最终由教师判断,evidence/accounts-chat-results.json；evidence/profile-results.json；evidence/acceptance-results.json
+5,提交可运行的软件和源代码,软件当前可运行；最终打包待完成,127.0.0.1:8210；SSH本地转发；独立启动停止脚本。最终附件需清理依赖、运行账号/密钥、用户私有数据和无关旧代码，保留可复现配置,run.sh；tools/stop.py；README.md
+6,需求分析、总体设计、模块设计及核心算法说明,过程材料已有；正式报告待整理,ER图、数据字典、体系结构、状态图、检索流程与代码定位已有；结合最新修复整理模块调用关系和算法解释,报告工作稿.docx；数据字典.csv；figures/
+7,测试数据、执行结果及典型问题解决,已积累；正式报告待编排,26组隔离接口测试；资料生命周期与媒体、账号/会话、个人设置、真实模型；保留输入输出与失败原因，区分模型桩和真实调用,测试记录.csv；evidence/
+8,七章报告，不少于15页，模板封面评分页和指定格式,待正式报告阶段完成,当前工作稿不是提交件；需套模板、核对图号字号、正文页数，保留封面评分项正反同页要求,../专业课程设计II-报告模板-2026-2027-1.docx；报告素材清单.csv
+9,自主学习、同学交流、项目管理、经济决策、安全和可持续发展,工程事实已有；个人经历待补充,依用户与教师最新说明独立开发，同学交流可如实记录，不虚构小组分工；学习和讨论经历需用户提供,AGENTS.md；报告工作稿.docx第七章
+10,答辩：功能演示、程序结构、测试准备、典型问题,软件与证据就绪；个人讲解训练待完成,按上传→发布→正文搜索→阅读→编辑→归档→恢复演示；讲清Vue/HTTP/SQLite/索引事务/权限/RAG，不能将实现完成等同于本人已掌握,README.md；报告工作稿.docx
+11,报告.doc、附件.rar、纸质报告交付,待完成,学号姓名班级待确认；真实格式转换和RAR打包，不直接改扩展名；最终报告纸质打印,../专业课程设计II-报告模板-2026-2027-1.docx
+12,实践教学大纲思考题,原材料缺失，不能代写未知题目,当前仅有任务书与报告模板；若有另发教学大纲需补充后核对,AGENTS.md

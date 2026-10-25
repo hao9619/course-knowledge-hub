@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="470" viewBox="0 0 760 470"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#355a48"/></marker></defs><rect width="100%" height="100%" fill="white"/>
+<rect x="20" y="40" width="220" height="105" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="130.0" y="69" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">完整资料</text>
+<text x="130.0" y="96" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">标题、正文、分类、状态</text>
+<text x="130.0" y="121" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">保留用户原始表达</text>
+<rect x="270" y="40" width="220" height="105" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.0" y="69" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">原始附件</text>
+<text x="380.0" y="96" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">原字节与随机存储名</text>
+<text x="380.0" y="121" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">可下载、可预览</text>
+<rect x="520" y="40" width="220" height="105" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="630.0" y="69" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">解析文本</text>
+<text x="630.0" y="96" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">TXT / PDF / DOCX</text>
+<text x="630.0" y="121" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">提取正文内容</text>
+<path d="M240,93 H270" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<path d="M490,93 H520" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<rect x="60" y="285" width="270" height="120" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="195.0" y="314" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">FTS5 全文索引</text>
+<text x="195.0" y="341" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">标题、正文、标签与附件文本</text>
+<text x="195.0" y="366" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">用于确定关键词是否出现</text>
+<rect x="430" y="285" width="270" height="120" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="565.0" y="314" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">检索片段</text>
+<text x="565.0" y="341" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">六百字符窗口，步长五百</text>
+<text x="565.0" y="366" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">BM25 选择相关片段</text>
+<path d="M630,145 V220 H195 V285" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<path d="M630,220 H565 V285" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="380" y="450" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">原资料是事实来源，解析文本和片段是可重建的派生数据。</text>
+</svg>

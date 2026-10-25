@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="680" viewBox="0 0 760 680"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#355a48"/></marker></defs><rect width="100%" height="100%" fill="white"/>
+<rect x="220" y="20" width="320" height="80" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.0" y="49" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">输入关键词及高级条件</text>
+<text x="380.0" y="76" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">登录状态与访问范围校验</text>
+<path d="M380,100 V145" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<path d="M380.0,145 L510,187.5 L380.0,230 L250,187.5 Z" fill="#fff8e8" stroke="#8c7950" stroke-width="1.7"/>
+<text x="380.0" y="194.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">关键词不少于三字？</text>
+<path d="M250,188 H165 V285" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="183" y="175" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">否</text>
+<path d="M510,188 H595 V285" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="577" y="175" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">是</text>
+<rect x="20" y="285" width="290" height="80" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="165.0" y="314" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">字面子串匹配</text>
+<text x="165.0" y="341" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">支持单字、双字</text>
+<rect x="450" y="285" width="290" height="80" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="595.0" y="314" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">FTS5 trigram 查询</text>
+<text x="595.0" y="341" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">转义为字面查询，避免语法注入</text>
+<path d="M165,365 V415 H380 V460" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<path d="M595,365 V415 H380" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<rect x="140" y="460" width="480" height="95" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.0" y="489" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">组合过滤与分页</text>
+<text x="380.0" y="516" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">多个关键词按 AND 组合</text>
+<text x="380.0" y="541" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">分类、类型、标签、作者、日期共同限制</text>
+<path d="M380,555 V600" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<rect x="220" y="600" width="320" height="55" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.0" y="629" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">返回资料、摘要和总数</text>
+</svg>

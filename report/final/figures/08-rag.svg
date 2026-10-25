@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="780" viewBox="0 0 760 780"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#355a48"/></marker></defs><rect width="100%" height="100%" fill="white"/>
+<rect x="205" y="20" width="350" height="80" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.0" y="49" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">问题与最近十二条有效消息</text>
+<text x="380.0" y="76" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">历史消息用于理解追问</text>
+<path d="M380,100 V145" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<rect x="205" y="145" width="350" height="80" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.0" y="174" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">AI 阅读已发布目录</text>
+<text x="380.0" y="201" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">判断总览问题或具体问题</text>
+<path d="M380,225 V265" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<path d="M380.0,265 L500,307.5 L380.0,350 L260,307.5 Z" fill="#fff8e8" stroke="#8c7950" stroke-width="1.7"/>
+<text x="380.0" y="314.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">是否为总览问题？</text>
+<path d="M260,307 H165 V395" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="194" y="290" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">是</text>
+<path d="M500,307 H595 V395" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<text x="566" y="290" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">否</text>
+<rect x="20" y="395" width="290" height="90" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="165.0" y="424" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">目录摘要作为依据</text>
+<text x="165.0" y="451" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">概括课程主题与学习方向</text>
+<rect x="450" y="395" width="290" height="90" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="595.0" y="424" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">语义选材与 BM25</text>
+<text x="595.0" y="451" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">扩展查询词，读取正文片段</text>
+<path d="M165,485 V530 H380 V570" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<path d="M595,485 V530 H380" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<rect x="170" y="570" width="420" height="90" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.0" y="599" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">生成回答并校验引用</text>
+<text x="380.0" y="626" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="400" fill="#263f33">编号、状态、版本与创建时间</text>
+<path d="M380,660 V700" stroke="#355a48" stroke-width="1.7" fill="none" marker-end="url(#arrow)"/>
+<rect x="150" y="700" width="460" height="60" rx="8" stroke="#537d65" stroke-width="1.7" fill="#f2f7f1"/>
+<text x="380.0" y="729" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17.594791666666666" font-weight="700" fill="#263f33">保存回答；失败时明确展示检索依据</text>
+</svg>
